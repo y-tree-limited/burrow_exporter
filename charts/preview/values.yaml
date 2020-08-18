@@ -21,7 +21,7 @@ preview:
     tag:
     pullPolicy: IfNotPresent
   env:
-    BURROW_ADDR: http://burrow.jx-staging:8000
+    BURROW_ADDR: http://burrow.jx-staging
     METRICS_ADDR: 0.0.0.0:8080
     INTERVAL: 10
     API_VERSION: 3
