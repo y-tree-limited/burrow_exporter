@@ -5,8 +5,8 @@ replicaCount: 1
 rollingUpdate:
   maxunavailable: 0
 image:
-  repository: draft
-  tag: dev
+  repository: 986794016656.dkr.ecr.eu-west-2.amazonaws.com/y-tree-limited/burrow-exporter
+  tag: 0.0.10
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
